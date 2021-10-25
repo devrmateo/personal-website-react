@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Header from "./Header";
+import Home from "./Home";
+import ResumeFile from "./ResumeFile";
+import MyStory from "./MyStory";
+import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop";
+import "./App.css";
+import { closeDrawer } from "./utils";
 
 function App() {
+  const [drawerState, setDrawerState] = useState("drawer");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <Router>
+      <ScrollToTop />
+      <div className="wrapper">
+        <Header drawerState={drawerState} setDrawerState={setDrawerState} />
+        <main
+          onClick={() => {
+            closeDrawer(drawerState, setDrawerState);
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Switch>
+            <Route exact path="/">
+              <Home drawerState={drawerState} />
+            </Route>
+            <Route path="/resume">
+              <ResumeFile drawerState={drawerState} />
+            </Route>
+            <Route path="/story">
+              <MyStory drawerState={drawerState} />
+            </Route>
+          </Switch>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

@@ -1,38 +1,565 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial, helvetica, sans-serif;
+  line-height: 2;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section,
+div,
+p,
+span,
+a,
+li,
+label,
+button {
+  font-size: calc(14px + 1vh);
+}
+
+.wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 1000px) {
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/*--------------------Header--------------------*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 75px;
+  padding: 1em 0.5em;
+  background: linear-gradient(rgb(56, 56, 64), rgba(85, 90, 109, 0.5));
+  background-position: center;
+  color: #ffffff;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+i {
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 185%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1em;
+}
+
+@media screen and (max-width: 375px) {
+  .fa-bars {
+    font-size: 1.5em;
+  }
+}
+
+.headerLink {
+  font-size: calc(30px + 1vh);
+}
+
+.headerLink:hover {
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header,
+main,
+.mainNavPanel,
+.content,
+.subNavPanel,
+footer {
+  width: 100%;
+}
+
+/*--------------------Responsive Nav Styling--------------------*/
+
+.fa-bars {
+  position: absolute;
+  cursor: pointer;
+}
+
+.drawer {
+  width: 250px;
+  position: absolute;
+  transform: translate(-250px, 0);
+  padding-left: 0.25em;
+}
+
+.open {
+  transform: translate(0, 0);
+  background-color: #55586b;
+}
+
+.mainNavLink {
+  display: block;
+  font-size: calc(16px + 1vh);
+}
+
+.mainNavLink:hover {
+  color: #2da246;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  min-width: 48px;
+  min-height: 48px;
+  outline: none;
+}
+
+a:hover {
+  color: #34355a;
+}
+
+/*--------------------Content section--------------------*/
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  color: #5a5050;
+}
+
+h2 {
+  font-size: calc(25px + 1vh);
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  color: #34355a;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.profile {
+  width: calc(275px + 1vw);
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+h3 {
+  font-size: calc(18px + 1vh);
+  color: #34355a;
+  margin-left: 0.8em;
+  margin-right: auto;
+  margin-bottom: 0.5em;
+  line-height: 1.35;
+  width: 95%;
+}
+
+h4 {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  color: #34355a;
+}
+
+p {
+  padding: 0 1em;
+  max-width: 65ch;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.75;
+  text-indent: 1.5em;
+}
+
+/*--------------------Sub Nav Section--------------------*/
+
+.subNavPanel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+  padding: 1em 0;
+  color: #ffffff;
+  background-color: #34355a;
+  line-height: 1.3em;
+}
+
+.subNavHeader {
+  margin-bottom: 1em;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.related {
+  list-style-type: none;
+  padding: 0 2em;
+}
+
+.relatedLi {
+  margin-left: 0;
+}
+
+.subNavLink {
+  display: block;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.subNavLink:hover {
+  color: #b2cde0;
+}
+
+/*--------------------Footer--------------------*/
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, rgb(56, 56, 64), rgba(85, 90, 109, 0.5));
+  min-height: 75px;
+  text-align: center;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  color: #ffffff;
+}
+
+.footerNav {
+  width: 100%;
+  margin-top: 1em;
+}
+
+.footerNavLink,
+.socialLink,
+.copyright {
+  display: inline-block;
+  font-size: calc(10px + 1vh);
+}
+
+.footerNavLink:hover {
+  color: #34355a;
+}
+
+.social {
+  margin-top: 1em;
+}
+
+.sr-only {
+  position: absolute;
+  left: -1000px;
+}
+
+.copyright {
+  flex-basis: 100%;
+  margin: 1.75em 0 1em 0;
+}
+
+/*--------------------Resume styles--------------------*/
+
+.summary {
+  text-indent: 0;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.75;
+}
+
+.projectTitle,
+.dates,
+.projectDesc,
+.title,
+.tech,
+.institution,
+.city,
+.skills {
+  line-height: 1.5;
+}
+
+.resumeSection {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0 1em;
+}
+
+@media screen and (min-width: 700px) {
+  .otherSkills {
+    padding-left: 1em;
+  }
+}
+
+.project {
+  margin-bottom: 0;
+}
+
+.projectInfo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  width: 55%;
+}
+
+.degreeInst,
+.degree,
+.projectLink,
+.details {
+  line-height: 1.25;
+}
+
+.projectLink {
+  color: #1a83b9;
+  padding: 10px 10px 10px 0;
+}
+
+.projectTitle {
+  width: 30%;
+  flex-basis: 100%;
+}
+
+.projectDesc {
+  width: 100%;
+}
+
+.description {
+  line-height: 1.65;
+}
+
+.sectionHeader {
+  margin: 1em 0 1em 1em;
+  padding-bottom: 0.25em;
+  width: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #9799a2;
+}
+
+.sectionHeader {
+  color: #5a5050;
+}
+
+.dates {
+  width: 30%;
+  padding-left: 0.1em;
+}
+
+.degreeInst,
+.details {
+  margin-left: 2em;
+  width: 55%;
+}
+
+.degree,
+.institution,
+.city,
+.duties {
+  display: block;
+}
+
+.description,
+.institution {
+  width: 100%;
+  max-width: 55ch;
+}
+
+.degree,
+.title {
+  font-weight: bold;
+}
+
+.title,
+.institution,
+.organization,
+.city {
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 1em;
+}
+
+.link {
+  list-style-type: none;
+}
+
+.link,
+.gitHub {
+  margin-left: 0;
+}
+
+.organization {
+  padding-left: 0;
+  color: #1a83b9;
+  word-wrap: break-word;
+}
+
+.url {
+  color: #1a83b9;
+  word-wrap: break-word;
+}
+
+.gitHub {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.gitHub::before {
+  content: "GitHub:";
+}
+
+.link::before {
+  content: "Url:";
+}
+
+.url,
+.gitHub,
+.link {
+  line-height: 1.25;
+}
+
+/*****                   *****/
+/***** 900px media query *****/
+@media screen and (min-width: 900px) {
+  .wrapper {
+    border-radius: 15px;
+    box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Hide hamburger menu icon*/
+  .fa-bars {
+    display: none;
+  }
+
+  .mainNavPanel {
+    background-color: #55586b;
+  }
+
+  .mainNavPanel {
+    padding-top: 2em;
+    padding-left: 1em;
+  }
+
+  .index {
+    justify-content: flex-start;
+  }
+
+  .subNavPanel {
+    background-color: #ffffff;
+    color: #1a83b9;
+    padding-top: 4em;
+  }
+
+  .subNavLink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 0;
+    font-size: calc(10px + 1vh);
+  }
+
+  .subNavLink:hover {
+    color: #fb7725;
+  }
+
+  .drawer {
+    position: relative;
+    width: 100%;
+    padding-left: 0.8em;
+    transform: translate(0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .mainNavLink {
+    font-size: calc(16px + 1vh);
+    width: 100%;
+  }
+
+  .content {
+    width: 60%;
+  }
+
+  .extendedContent {
+    width: 80%;
+  }
+
+  .mainNavPanel {
+    width: 20%;
+  }
+
+  .subNavPanel {
+    width: 20%;
+  }
+
+  .subNavHeader {
+    color: #34355a;
+  }
+
+  .subNav {
+    width: 85%;
+    padding-left: 0.5em;
+    box-shadow: 0 0 20px 0px rgba(40, 70, 30, 0.2);
+    border-radius: 0.375rem;
+    margin-bottom: 1em;
+  }
+
+  .subNavSubHeader {
+    margin-top: 1em;
+    color: #34355a;
+  }
+
+  .related {
+    list-style-type: disc;
+    padding: 0;
+  }
+
+  .relatedLi {
+    margin-left: 1em;
+  }
+
+  .subNavLink {
+    color: #1a83b9;
+    text-align: left;
+    padding-left: 0;
+    margin-bottom: 0.25em;
+  }
+
+  small {
+    text-align: left;
+    color: #34355a;
+    padding: 0 0 5px 0;
   }
 }
