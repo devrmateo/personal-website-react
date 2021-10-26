@@ -7,7 +7,7 @@ export default function SubNav() {
           <li className="relatedLi">
             <a
               className="subNavLink"
-              href="https://www.optoutnews.org/"
+              href="https://originals.optout.news/"
               target="_blank"
               rel="noreferrer"
             >
