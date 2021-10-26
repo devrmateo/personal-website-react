@@ -39,6 +39,26 @@ button {
   }
 }
 
+/*Scroll Arrow*/
+
+.scrollUpBtn {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 15px;
+  bottom: 15px;
+  height: 40px;
+  width: 40px;
+  background-color: #ebedf0;
+  border-radius: 50px;
+  color: "#7F7F7F";
+  cursor: "pointer";
+}
+
+.fade {
+  opacity: 0.25;
+}
 /*--------------------Header--------------------*/
 
 header {

@@ -6,6 +6,7 @@ import ResumeFile from "./ResumeFile";
 import MyStory from "./MyStory";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
+import ScrollArrow from "./ScrollArrow";
 import "./App.css";
 import { closeDrawer } from "./utils";
 
@@ -22,6 +23,7 @@ function App() {
             closeDrawer(drawerState, setDrawerState);
           }}
         >
+          <ScrollArrow />
           <Switch>
             <Route exact path="/">
               <Home drawerState={drawerState} />
