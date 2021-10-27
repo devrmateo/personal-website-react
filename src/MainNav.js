@@ -10,7 +10,7 @@ export default function MainNav({ drawerState }) {
           Resume
         </NavLink>
         <NavLink to="/story" className="mainNavLink">
-          MyStory
+          My Story
         </NavLink>
       </nav>
     </section>

@@ -20,7 +20,7 @@ export default function Footer() {
           My Story
         </NavLink>
       </nav>
-      <div className="social">
+      <div>
         <a
           className="socialLink"
           href="https://github.com/devrmateo"
