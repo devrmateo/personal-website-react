@@ -1,0 +1,51 @@
+/*404 page*/
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-family: arial, helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #2d36a5;
+}
+
+.error-404,
+p {
+  color: #34355a;
+}
+
+.error-message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-404 {
+  height: 100%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #2d36a5;
+}
+
+a:hover {
+  color: #af3420;
+  opacity: 0.75;
+}
