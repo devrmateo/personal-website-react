@@ -1,9 +1,9 @@
 import MainNav from "./MainNav";
 
-export default function Resume({ drawerState }) {
+export default function Resume() {
   return (
     <>
-      <MainNav drawerState={drawerState} />
+      <MainNav />
       <section className="content extendedContent">
         <h2>Resume</h2>
         <p className="summary">

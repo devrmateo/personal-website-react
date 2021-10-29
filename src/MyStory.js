@@ -1,9 +1,9 @@
 import MainNav from "./MainNav";
 
-export default function MyStory({ drawerState }) {
+export default function MyStory() {
   return (
     <>
-      <MainNav drawerState={drawerState} />
+      <MainNav />
       <section className="content extendedContent">
         <h2>My Story</h2>
         <div>
@@ -58,8 +58,8 @@ export default function MyStory({ drawerState }) {
             uncertain and perilous times in which we live, it is incumbent upon
             each of us to become as involved as we can in the political process.
             As a web developer in service of this progressive vision, I hope to
-            play a part in making the country and world a more just, healty, and
-            equitable place.
+            play a part in making the country and world a more just, healthy,
+            and equitable place.
           </p>
         </div>
       </section>

@@ -1,9 +1,13 @@
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { toggleDrawer } from "./utils";
+import { context } from "./App";
 
-export default function Header({ setDrawerState, drawerState }) {
+export default function Header({ setDrawerState }) {
+  const drawerState = useContext(context);
+
   return (
     <header>
       <FontAwesomeIcon

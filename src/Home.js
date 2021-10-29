@@ -2,10 +2,10 @@ import MainNav from "./MainNav";
 import personalImage from "./images/profile.jpeg";
 import SubNav from "./SubNav";
 
-export default function Home({ setDrawerState, drawerState }) {
+export default function Home() {
   return (
     <>
-      <MainNav drawerState={drawerState} />
+      <MainNav />
       <section className="content index">
         <h2>Web Developer</h2>
         <div className="image">
@@ -51,6 +51,7 @@ export default function Home({ setDrawerState, drawerState }) {
           the organization's website.
         </p>
       </section>
+      ;
       <SubNav />
     </>
   );

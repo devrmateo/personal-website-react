@@ -1,5 +1,10 @@
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
-export default function MainNav({ drawerState }) {
+import { context } from "./App";
+
+export default function MainNav() {
+  const drawerState = useContext(context);
+
   return (
     <section className="mainNavPanel">
       <nav className={drawerState}>
