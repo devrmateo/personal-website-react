@@ -115,7 +115,10 @@ footer {
 .fa-bars {
   position: absolute;
   cursor: pointer;
-  margin-left: 0.125em;
+  top: 0.9095rem;
+  left: 0.65rem;
+  font-size: 3.17rem;
+  padding: 2px 4px;
 }
 
 .drawer {
