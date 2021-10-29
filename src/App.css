@@ -52,8 +52,8 @@ button {
   width: 50px;
   background-color: #ebedf0;
   border-radius: 50px;
-  color: "#7F7F7F";
-  cursor: "pointer";
+  color: #7f7f7f;
+  cursor: pointer;
 }
 
 .fade {
