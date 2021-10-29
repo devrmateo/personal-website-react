@@ -51,7 +51,6 @@ export default function Home() {
           the organization's website.
         </p>
       </section>
-      ;
       <SubNav />
     </>
   );
