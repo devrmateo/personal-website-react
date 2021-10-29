@@ -74,12 +74,6 @@ header {
   border-top-right-radius: inherit;
 }
 
-i {
-  cursor: pointer;
-  padding: 2px 4px;
-  border-radius: 4px;
-}
-
 h1 {
   font-size: 185%;
   text-align: center;
@@ -121,6 +115,7 @@ footer {
 .fa-bars {
   position: absolute;
   cursor: pointer;
+  margin-left: 0.125em;
 }
 
 .drawer {

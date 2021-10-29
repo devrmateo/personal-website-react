@@ -68,7 +68,7 @@ export default function Footer() {
         <span className="sr-only">Twitter</span>
       </div>
 
-      <div className="copyright">© 2021 Matthew Price Smith</div>
+      <div className="copyright">© 2021 Matthew Smith</div>
     </footer>
   );
 }
