@@ -2,6 +2,8 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 
+//credit for ScrollArrow code: https://betterprogramming.pub/create-a-scroll-to-top-arrow-using-react-hooks-18586890fedc
+
 export const ScrollArrow = () => {
   const [showScroll, setShowScroll] = useState(false);
   const [fadeIcon, setFadeIcon] = useState(false);
