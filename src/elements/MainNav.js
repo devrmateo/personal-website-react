@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
-import { context } from "./App";
+import { context } from "../App";
 
-export default function MainNav() {
+export const MainNav = () => {
   const drawerState = useContext(context);
 
   return (
@@ -20,4 +20,4 @@ export default function MainNav() {
       </nav>
     </section>
   );
-}
+};

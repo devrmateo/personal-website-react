@@ -2,10 +2,10 @@ import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { toggleDrawer } from "./utils";
-import { context } from "./App";
+import { toggleDrawer } from "../utils";
+import { context } from "../App";
 
-export default function Header({ setDrawerState }) {
+export const Header = ({ setDrawerState }) => {
   const drawerState = useContext(context);
 
   return (
@@ -26,4 +26,4 @@ export default function Header({ setDrawerState }) {
       </h1>
     </header>
   );
-}
+};

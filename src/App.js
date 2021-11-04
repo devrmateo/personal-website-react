@@ -1,20 +1,15 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from "./Header";
-import Home from "./Home";
-import ResumeFile from "./ResumeFile";
-import MyStory from "./MyStory";
-import Footer from "./Footer";
+import { Home, MyStory, Resume } from "./screens/";
+import { Header, Footer } from "./elements/";
 import { createContext } from "react";
-import ScrollToTop from "./ScrollToTop";
-import ScrollArrow from "./ScrollArrow";
-import "./App.css";
-import { closeDrawer } from "./utils";
+import { ScrollToTop, ScrollArrow, closeDrawer } from "./utils/";
+import "./assets/css/App.css";
 
 export const context = createContext();
 const Provider = context.Provider;
 
-function App() {
+const App = () => {
   const [drawerState, setDrawerState] = useState("drawer");
 
   return (
@@ -34,7 +29,7 @@ function App() {
                 <Home />
               </Route>
               <Route path="/resume">
-                <ResumeFile />
+                <Resume />
               </Route>
               <Route path="/story">
                 <MyStory />
@@ -46,6 +41,6 @@ function App() {
       </Router>
     </Provider>
   );
-}
+};
 
 export default App;
