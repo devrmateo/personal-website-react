@@ -35,14 +35,13 @@ export const MyStory = () => (
         </p>
         <p>
           At the same time that I was completing my career change, I was
-          becoming aware of the need to become politically active. In 2016, I
-          became a part of the movement that sprang up around the presidential
-          candidacy of Senator Bernie Sanders, volunteering to make phone calls
-          to voters and engaging with fellow campaign volunteers. After the
-          election, I remained politically active, volunteering for
-          organizations such as Justice Democrats. More recently, I volunteered
-          for Sanders' 2020 bid as both a web developer and a Spanish call team
-          volunteer.
+          becoming politically active. In 2016, I got involved in the movement
+          that sprang up around the presidential candidacy of Senator Bernie
+          Sanders, volunteering to make phone calls to voters and engaging with
+          fellow campaign volunteers. After the election, I remained politically
+          active, volunteering for organizations such as Justice Democrats. More
+          recently, I volunteered for Sanders' 2020 bid as both a web developer
+          and a Spanish call team volunteer.
         </p>
         <h3>
           The Path Forward: Fusing Web Development with Political Activism
