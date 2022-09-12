@@ -180,11 +180,11 @@ export const Resume = () => (
             <li className="link">
               <a
                 className="url"
-                href="https://originals.optout.news/"
+                href="https://optout.news/"
                 target="_blank"
                 rel="noreferrer"
               >
-                https://originals.optout.news/
+                https://optout.news/
               </a>
             </li>
           </ul>
