@@ -17,7 +17,7 @@ export const Resume = () => (
           <div className="projectTitle">
             <a
               className="projectLink"
-              href="https://originals.optout.news/"
+              href="https://optout.news/"
               target="_blank"
               rel="noreferrer"
             >
@@ -27,7 +27,7 @@ export const Resume = () => (
           <div className="projectDesc">
             <ul>
               <li className="description">
-                Utilize my skills with React Native, Redux, and Git to build
+                Utilize my skills with React Native, Redux, Firebase and Git to build
                 front-end features for a non-profit news aggregator app.
               </li>
               <li className="description">
@@ -170,7 +170,7 @@ export const Resume = () => (
           <span className="city">Remote</span>
           <ul className="duties">
             <li className="description">
-              Build front-end features as a volunteer developer for a non-profit
+              Build front-end features as a developer for a non-profit
               news aggregator app.
             </li>
             <li className="description">

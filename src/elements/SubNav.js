@@ -6,7 +6,7 @@ export const SubNav = () => (
         <li className="relatedLi">
           <a
             className="subNavLink"
-            href="https://originals.optout.news/"
+            href="https://optout.news/"
             target="_blank"
             rel="noreferrer"
           >

@@ -29,7 +29,7 @@ export const Home = () => (
         Nanodegree.
       </p>
       <p>
-        As I was completing my career change, I was also becoming more engaged
+        As I was completing my career change, I was also becoming engaged
         politically. In 2016, I became a part of the movement that sprang up
         around the presidential candidacy of Senator Bernie Sanders,
         volunteering to make phone calls to voters and engaging with fellow
@@ -43,8 +43,7 @@ export const Home = () => (
         Sanders 2020 campaign (see the link in the "Related" section). Moreover,
         as of October, 2020, I am a front-end developer at the OptOut Media
         Foundation, where I have been assisting in the development of OptOut
-        News, a non-profit independent news aggregator app scheduled for beta
-        release in the fall of 2021 (see link in the "Related" section for more
+        News, a non-profit independent news aggregator app (see link in the "Related" section for more
         info), as well as making enhancements to the organization's website.
       </p>
     </section>
