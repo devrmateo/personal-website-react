@@ -35,7 +35,7 @@ export const MyStory = () => (
         </p>
         <p>
           At the same time that I was completing my career change, I was
-          becoming politically active. In 2016, I got involved in the movement
+          becoming active politically. In 2016, I got involved in the movement
           that sprang up around the presidential candidacy of Senator Bernie
           Sanders, volunteering to make phone calls to voters and engaging with
           fellow campaign volunteers. After the election, I remained politically
