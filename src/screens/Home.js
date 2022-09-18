@@ -5,7 +5,7 @@ export const Home = () => (
   <>
     <MainNav />
     <section className="content index">
-      <h2>Web Developer</h2>
+      <h2>Front-End Developer</h2>
       <div className="image">
         <img className="profile" src={personalImage} alt="Matthew Smith" />
       </div>
