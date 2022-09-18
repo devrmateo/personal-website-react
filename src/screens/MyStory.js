@@ -51,10 +51,8 @@ export const MyStory = () => (
           the majority of the country, and the democratic party has begun to
           adopt them. I plan to continue contributing to tech projects that help
           to make this platform a reality in the coming years. In the uncertain
-          and perilous times in which we live, it is incumbent upon each of us
-          to become as involved as we can in the political process. As a web
-          developer in service of this progressive vision, I hope to play a part
-          in making the country and world a more just, healthy, and equitable
+          and perilous times in which we live, it is incumbent upon all of us
+          to become as involved as we can in the political process to help make the country a more just, healthy, and equitable
           place.
         </p>
       </div>
