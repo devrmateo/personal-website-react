@@ -28,7 +28,7 @@ export const Resume = () => (
             <ul>
               <li className="description">
                 Utilize my skills with React Native, Redux, Firebase and Git to
-                build front-end features for a non-profit news aggregator app.
+                build mobile features for a non-profit news aggregator app.
               </li>
               <li className="description">
                 Participate in weekly meetings with teammates.
@@ -54,8 +54,8 @@ export const Resume = () => (
             <ul>
               <li className="description">
                 Utilized my skills with React Native, Firebase, and Git to build
-                front-end and back-end features on an AirB&B-type app for
-                political campaign staff and volunteers.
+                mobile and back-end features on an AirB&B-type app for political
+                campaign staff and volunteers.
               </li>
               <li className="description">
                 Participated in pair programming sessions and weekly meetings
@@ -170,12 +170,12 @@ export const Resume = () => (
           <span className="city">Remote</span>
           <ul className="duties">
             <li className="description">
-              Build front-end features as a developer for a non-profit news
+              Build mobile features as a developer for a non-profit news
               aggregator app.
             </li>
             <li className="description">
-              Collaborate with front-end lead and other teammates to ensure
-              quality and timely updates to the app.
+              Collaborate with teammates to ensure quality and timely updates to
+              the app.
             </li>
             <li className="link">
               <a
@@ -198,7 +198,7 @@ export const Resume = () => (
           <span className="city">Remote</span>
           <ul className="duties">
             <li className="description">
-              Built front-end and back-end features as a volunteer developer in
+              Built mobile and back-end features as a volunteer developer in
               service to a political campaign.
             </li>
             <li className="description">
