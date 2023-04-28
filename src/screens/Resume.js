@@ -6,9 +6,9 @@ export const Resume = () => (
     <section className="content extendedContent">
       <h2>Resume</h2>
       <p className="summary">
-        I am a Mobile Developer at the OptOut Media Foundation. In addition,
-        I am a talented problem solver, critical thinker, and communicator,
-        aided by my previous experience as a college-level Spanish instructor.
+        Mobile developer with five years of experience building performant
+        applications. Proficient in JavaScript, React, React Native, Redux,
+        Firebase, and Git. Always taking on new technological challenges.
       </p>
       <h3 className="sectionHeader">Projects</h3>
       <section className="resumeSection project">
@@ -27,8 +27,8 @@ export const Resume = () => (
           <div className="projectDesc">
             <ul>
               <li className="description">
-                Utilize my skills with React Native, Redux, Firebase and Git to build
-                front-end features for a non-profit news aggregator app.
+                Utilize my skills with React Native, Redux, Firebase and Git to
+                build front-end features for a non-profit news aggregator app.
               </li>
               <li className="description">
                 Participate in weekly meetings with teammates.
@@ -170,8 +170,8 @@ export const Resume = () => (
           <span className="city">Remote</span>
           <ul className="duties">
             <li className="description">
-              Build front-end features as a developer for a non-profit
-              news aggregator app.
+              Build front-end features as a developer for a non-profit news
+              aggregator app.
             </li>
             <li className="description">
               Collaborate with front-end lead and other teammates to ensure
