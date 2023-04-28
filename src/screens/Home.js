@@ -1,5 +1,5 @@
 import { MainNav, SubNav } from "../elements/";
-import personalImage from "../assets/images/profile.jpeg";
+import personalImage from "../assets/images/profile.jpg";
 
 export const Home = () => (
   <>

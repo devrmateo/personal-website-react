@@ -170,15 +170,15 @@ h2 {
 
 .image {
   width: 100%;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 .profile {
-  width: calc(275px + 1vw);
+  width: calc(200px + 1vw);
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 h3 {
