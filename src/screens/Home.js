@@ -5,13 +5,13 @@ export const Home = () => (
   <>
     <MainNav />
     <section className="content index">
-      <h2>Front-End Developer</h2>
+      <h2>Mobile Developer</h2>
       <div className="image">
         <img className="profile" src={personalImage} alt="Matthew Smith" />
       </div>
       <p className="first">
-        I am a Front-End Developer at the OptOut Media Foundation. My principal
-        skills include React, React Native, and Redux. While I love building
+        I am a Mobile Developer at the OptOut Media Foundation. My principal
+        skills include React, React Native, Redux, Firebase, and Git. While I love building
         applications in general, I prefer to work on projects that advance a
         leftist vision of society. Before becoming a web developer, I taught
         college Spanish for almost twenty years. My experience in the humanities

@@ -6,7 +6,7 @@ export const Resume = () => (
     <section className="content extendedContent">
       <h2>Resume</h2>
       <p className="summary">
-        I am a Front-End Developer at the OptOut Media Foundation. In addition,
+        I am a Mobile Developer at the OptOut Media Foundation. In addition,
         I am a talented problem solver, critical thinker, and communicator,
         aided by my previous experience as a college-level Spanish instructor.
       </p>
@@ -165,7 +165,7 @@ export const Resume = () => (
       <section className="resumeSection">
         <div className="dates">Oct 2020 - Present</div>
         <section className="details">
-          <span className="title">Front-End Developer</span>
+          <span className="title">Mobile Developer</span>
           <span className="institution">OptOut Media Foundation</span>
           <span className="city">Remote</span>
           <ul className="duties">
