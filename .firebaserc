@@ -1,1 +1,7 @@
-{}
+{
+  "projects": {
+    "staging": "woven-phoenix-329020"
+  },
+  "targets": {},
+  "etags": {}
+}
