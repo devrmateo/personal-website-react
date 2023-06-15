@@ -13,7 +13,7 @@ export const Home = () => (
         I am a Mobile Developer at the OptOut Media Foundation. My principal
         skills include React, React Native, Redux, Firebase, and Git. While I
         love building applications in general, I prefer to work on projects that
-        advance a leftist vision of society. Before becoming a web developer, I
+        advance a leftist vision of society. Before becoming a developer, I
         taught college Spanish for almost twenty years. My experience in the
         humanities lends me a unique insight into the tech world.
       </p>
@@ -41,7 +41,7 @@ export const Home = () => (
         projects with a progressive slant. I started by serving on the team that
         created BernieBnB–an AirB&B–style application for volunteers of the
         Sanders 2020 campaign (see the link in the "Related" section). Moreover,
-        as of October, 2020, I am a front-end developer at the OptOut Media
+        as of October, 2020, I am a mobile developer at the OptOut Media
         Foundation, where I have been assisting in the development of OptOut
         News, a non-profit independent news aggregator app (see link in the
         "Related" section for more info), as well as making enhancements to the

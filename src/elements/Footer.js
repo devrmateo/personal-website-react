@@ -67,6 +67,6 @@ export const Footer = () => (
       <span className="sr-only">Twitter</span>
     </div>
 
-    <div className="copyright">© 2022 Matthew Smith</div>
+    <div className="copyright">© 2023 Matthew Smith</div>
   </footer>
 );
