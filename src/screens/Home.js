@@ -10,8 +10,7 @@ export const Home = () => (
         <img className="profile" src={personalImage} alt="Matthew Smith" />
       </div>
       <p className="first">
-        I am a Mobile Developer at the OptOut Media Foundation. My principal
-        skills include React, React Native, Redux, Firebase, and Git. While I
+        I am a Mobile Developer specializing in React Native. While I
         love building applications in general, I prefer to work on projects that
         advance a leftist vision of society. Before becoming a developer, I
         taught college Spanish for almost twenty years. My experience in the
@@ -41,10 +40,10 @@ export const Home = () => (
         projects with a progressive slant. I started by serving on the team that
         created BernieBnB–an AirB&B–style application for volunteers of the
         Sanders 2020 campaign (see the link in the "Related" section). Moreover,
-        as of October, 2020, I am a mobile developer at the OptOut Media
-        Foundation, where I have been assisting in the development of OptOut
-        News, a non-profit independent news aggregator app (see link in the
-        "Related" section for more info), as well as making enhancements to the
+        from October of 2020 through December of 2024, I was a mobile developer at the OptOut Media
+        Foundation, where I assisted in the development of OptOut
+        News, a non-profit independent news aggregator app (see the link in the
+        "Related" section for more info), and also made enhancements to the
         organization's website.
       </p>
     </section>

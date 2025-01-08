@@ -12,7 +12,7 @@ export const Resume = () => (
       </p>
       <h3 className="sectionHeader">Projects</h3>
       <section className="resumeSection project">
-        <div className="dates">Oct 2020 - Present</div>
+        <div className="dates">Oct 2020 -  Dec 2024</div>
         <section className="projectInfo">
           <div className="projectTitle">
             <a
@@ -27,11 +27,11 @@ export const Resume = () => (
           <div className="projectDesc">
             <ul>
               <li className="description">
-                Utilize my skills with React Native, Redux, Firebase and Git to
+                Utilized my skills with React Native, Redux, Firebase and Git to
                 build mobile features for a non-profit news aggregator app.
               </li>
               <li className="description">
-                Participate in weekly meetings with teammates.
+                Participated in weekly meetings with teammates.
               </li>
             </ul>
           </div>
