@@ -163,18 +163,18 @@ export const Resume = () => (
       </section>
       <h3 className="sectionHeader">Experience</h3>
       <section className="resumeSection">
-        <div className="dates">Oct 2020 - Present</div>
+        <div className="dates">Oct 2020 - Dec 2024</div>
         <section className="details">
           <span className="title">Mobile Developer</span>
           <span className="institution">OptOut Media Foundation</span>
           <span className="city">Remote</span>
           <ul className="duties">
             <li className="description">
-              Build mobile features as a developer for a non-profit news
+              Built mobile features as a developer for a non-profit news
               aggregator app.
             </li>
             <li className="description">
-              Collaborate with teammates to ensure quality and timely updates to
+              Collaborated with teammates to ensure quality and timely updates to
               the app.
             </li>
             <li className="link">
@@ -514,7 +514,7 @@ export const Resume = () => (
             <span className="degree">
               <a
                 className="projectLink"
-                href="https://graduation.udacity.com/confirm/Q45LQ2AC"
+                href="https://www.udacity.com/certificate/e/1045094a-4717-11e8-a7d4-9396ce03b522"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -522,17 +522,6 @@ export const Resume = () => (
               </a>
             </span>
             <span className="institution">Udacity</span>
-          </div>
-        </section>
-      </section>
-      <section className="resumeSection">
-        <div className="dates">Jun 2017</div>
-        <section className="degreeInst">
-          <div>
-            <span className="degree">
-              The Complete Web Developer Course, 2.0
-            </span>
-            <span className="institution">Udemy</span>
           </div>
         </section>
       </section>
@@ -597,24 +586,27 @@ export const Resume = () => (
       <h3 className="sectionHeader">Technical Skills</h3>
       <section className="resumeSection">
         <ul>
+          <li className="skills">HTML</li>
+          <li className="skills">CSS</li>
+          <li className="skills">JavaScript</li>
+          <li className="skills">React</li>
+          <li className="skills">React Native</li>
+          <li className="skills">Redux</li>
+          <li className="skills">Firebase</li>
+          <li className="skills">Git</li>
+          <li className="skills">PHP</li>
+          <li className="skills">Yarn</li>
+          <li className="skills">Command Line (Terminal)</li>
           <li className="skills">Object-Oriented Programming</li>
           <li className="skills">Functional Programming</li>
           <li className="skills">Responsive Web Design</li>
-          <li className="skills">Git</li>
           <li className="skills">Github</li>
           <li className="skills">W3C Accessibility</li>
-          <li className="skills">Command Line (Terminal)</li>
           <li className="skills">Gulp</li>
           <li className="skills">Bootstrap</li>
-          <li className="skills">PHP</li>
           <li className="skills">WordPress</li>
           <li className="skills">Node Package Manager</li>
-          <li className="skills">Yarn</li>
           <li className="skills">AJAX</li>
-          <li className="skills">React</li>
-          <li className="skills">Redux</li>
-          <li className="skills">React Native</li>
-          <li className="skills">Firebase</li>
           <li className="skills">Styled Components</li>
         </ul>
       </section>
