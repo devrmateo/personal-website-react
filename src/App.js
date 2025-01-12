@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Home, MyStory, Resume } from "./screens/";
+import { Home, MyStory, Resume, Error } from "./screens/";
 import { Header, Footer } from "./elements/";
 import { createContext } from "react";
 import { ScrollToTop, ScrollArrow, closeDrawer } from "./utils/";
@@ -33,6 +33,9 @@ const App = () => {
               </Route>
               <Route path="/story">
                 <MyStory />
+              </Route>
+              <Route path="*">
+                <Error />
               </Route>
             </Switch>
           </main>

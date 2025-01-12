@@ -59,6 +59,7 @@ button {
 .fade {
   opacity: 0.25;
 }
+
 /*--------------------Header--------------------*/
 
 header {
@@ -280,6 +281,7 @@ footer {
 .fab {
   font-size: 1.3em;
 }
+
 .sr-only {
   position: absolute;
   left: -1000px;
@@ -568,4 +570,45 @@ li {
     color: #34355a;
     padding: 0 0 5px 0;
   }
+}
+
+/* 404 page */
+
+.error-message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-404 {
+  margin: 2.5rem 0 2.5rem 20%;
+  color: #34355a;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-header {
+  font-size: 4rem;
+  color: #2d36a5;
+}
+
+.error {
+  color: #34355a;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.error-link {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #2d36a5;
+}
+
+.error-link:hover {
+  color: #af3420;
+  opacity: 0.75;
 }
